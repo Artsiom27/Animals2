@@ -1,16 +1,16 @@
-class Sparrow  extends Animal {
+class Sparrow extends Animal {
     String sounds;
     String strange = "красный воробей";
 
-    public Sparrow (String name, double weight) {
+    public Sparrow(String name, double weight) {
         super(name, weight);
         this.sounds = "чык-чырык";
 
     }
 
-    public Sparrow (String name, double weight, String sounds) {
+    public Sparrow(String name, double weight, String sounds) {
         super(name, weight);
-        this.sounds =sounds;
+        this.sounds = sounds;
 
     }
 
@@ -28,7 +28,8 @@ class Sparrow  extends Animal {
         System.out.println("Издваемый звук: " + sounds);
 
     }
-    public void homeSparrow(){
+
+    public void homeSparrow() {
         System.out.println("Вид животного: " + name);
         System.out.println("Вес: " + weight + " кг.");
         System.out.println(strange);
