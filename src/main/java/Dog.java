@@ -2,8 +2,8 @@ class Dog extends Animal {
     String typeofeat;
 
 
-   public Dog (String name, int weight,String typeofeat, String habitat, int height) {
-        super(name, weight,habitat, height);
+    public Dog(String name, int weight, String typeofeat, String habitat, int height) {
+        super(name, weight, habitat, height);
         this.typeofeat = typeofeat;
     }
 
